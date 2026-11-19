@@ -1,0 +1,21 @@
+{
+  "name": "projeto-qrcode-nodejs",
+  "version": "1.0.0",
+  "description": "Kit de utilidades para e-commerces: QR Code e gerador de senha — desafio DIO",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js"
+  },
+  "keywords": ["nodejs", "qrcode", "password", "dio", "esm"],
+  "author": "Moisés Santos de Oliveira",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "prompt": "^1.3.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
